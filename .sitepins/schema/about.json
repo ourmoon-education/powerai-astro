@@ -1,0 +1,254 @@
+{
+  "file": "src/content/about/-index.md",
+  "name": "about",
+  "fileType": "md",
+  "fmType": "yaml",
+  "template": [
+    {
+      "name": "title",
+      "label": "Title",
+      "type": "string",
+      "value": "",
+      "isIgnored": false,
+      "defaultValue": ""
+    },
+    {
+      "name": "meta_title",
+      "label": "Meta Title",
+      "type": "string",
+      "value": "",
+      "isIgnored": false,
+      "defaultValue": ""
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "string",
+      "value": "",
+      "isIgnored": false,
+      "defaultValue": ""
+    },
+    {
+      "name": "image",
+      "label": "Image",
+      "type": "media",
+      "value": "",
+      "isIgnored": false,
+      "defaultValue": ""
+    },
+    {
+      "name": "draft",
+      "label": "Draft",
+      "type": "boolean",
+      "value": false,
+      "isIgnored": false,
+      "defaultValue": false
+    },
+    {
+      "name": "page_header",
+      "label": "Page Header",
+      "type": "media",
+      "isIgnored": false,
+      "defaultValue": ""
+    },
+    {
+      "name": "who_we_are",
+      "label": "Who We Are",
+      "type": "object",
+      "isIgnored": false,
+      "defaultValue": "",
+      "fields": [
+        {
+          "name": "title",
+          "label": "Title",
+          "type": "string",
+          "value": "",
+          "isIgnored": false,
+          "defaultValue": ""
+        },
+        {
+          "name": "badge",
+          "label": "Badge",
+          "type": "string",
+          "value": "",
+          "isIgnored": false,
+          "defaultValue": ""
+        },
+        {
+          "name": "subtitle",
+          "label": "Subtitle",
+          "type": "string",
+          "value": "",
+          "isIgnored": false,
+          "defaultValue": ""
+        },
+        {
+          "name": "image",
+          "label": "Image",
+          "type": "media",
+          "value": "",
+          "isIgnored": false,
+          "defaultValue": ""
+        }
+      ]
+    },
+    {
+      "name": "what_our_goals",
+      "label": "What Our Goals",
+      "type": "object",
+      "isIgnored": false,
+      "defaultValue": "",
+      "fields": [
+        {
+          "name": "badge",
+          "label": "Badge",
+          "type": "string",
+          "value": "",
+          "isIgnored": false,
+          "defaultValue": ""
+        },
+        {
+          "name": "title",
+          "label": "Title",
+          "type": "string",
+          "value": "",
+          "isIgnored": false,
+          "defaultValue": ""
+        },
+        {
+          "name": "image",
+          "label": "Image",
+          "type": "media",
+          "value": "",
+          "isIgnored": false,
+          "defaultValue": ""
+        },
+        {
+          "name": "mission",
+          "label": "Mission",
+          "type": "object",
+          "isIgnored": false,
+          "defaultValue": "",
+          "fields": [
+            {
+              "name": "title",
+              "label": "Title",
+              "type": "string",
+              "value": "",
+              "isIgnored": false,
+              "defaultValue": ""
+            },
+            {
+              "name": "content",
+              "label": "Content",
+              "type": "string",
+              "value": "",
+              "isIgnored": false,
+              "defaultValue": ""
+            },
+            {
+              "name": "icon",
+              "label": "Icon",
+              "type": "media",
+              "value": "",
+              "isIgnored": false,
+              "defaultValue": ""
+            }
+          ]
+        },
+        {
+          "name": "vision",
+          "label": "Vision",
+          "type": "object",
+          "isIgnored": false,
+          "defaultValue": "",
+          "fields": [
+            {
+              "name": "title",
+              "label": "Title",
+              "type": "string",
+              "value": "",
+              "isIgnored": false,
+              "defaultValue": ""
+            },
+            {
+              "name": "content",
+              "label": "Content",
+              "type": "string",
+              "value": "",
+              "isIgnored": false,
+              "defaultValue": ""
+            },
+            {
+              "name": "icon",
+              "label": "Icon",
+              "type": "media",
+              "value": "",
+              "isIgnored": false,
+              "defaultValue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "our_team",
+      "label": "Our Team",
+      "type": "object",
+      "isIgnored": false,
+      "defaultValue": "",
+      "fields": [
+        {
+          "name": "badge",
+          "label": "Badge",
+          "type": "string",
+          "value": "",
+          "isIgnored": false,
+          "defaultValue": ""
+        },
+        {
+          "name": "title",
+          "label": "Title",
+          "type": "string",
+          "value": "",
+          "isIgnored": false,
+          "defaultValue": ""
+        },
+        {
+          "name": "team_list",
+          "label": "Team List",
+          "type": "Array",
+          "value": [],
+          "isIgnored": false,
+          "defaultValue": "",
+          "fields": [
+            {
+              "name": "name",
+              "label": "Name",
+              "type": "string",
+              "value": "",
+              "isIgnored": false,
+              "defaultValue": ""
+            },
+            {
+              "name": "position",
+              "label": "Position",
+              "type": "string",
+              "value": "",
+              "isIgnored": false,
+              "defaultValue": ""
+            },
+            {
+              "name": "image",
+              "label": "Image",
+              "type": "media",
+              "value": "",
+              "isIgnored": false,
+              "defaultValue": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
